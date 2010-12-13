@@ -1,4 +1,4 @@
-thing1 = "apple"
+thing1 = "raspberry"
 thing2 = "orange"
 if thing1==thing2:
 	print thing1,"equals",thing2
