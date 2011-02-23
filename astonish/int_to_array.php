@@ -10,6 +10,9 @@ function int_to_array($num, &$arr){
 		int_to_array(floor($num / 10), $arr);
 	}
 }
+
+// This part only shows how to use the function.  You just need the above function to convert an int to an array
+
 $arr = array();
 $num = 123456;
 int_to_array($num, $arr);
