@@ -24,7 +24,7 @@ function group_into_threes(&$threes, $arr){
 		group_into_threes($threes, array_slice($arr, 0, -3));
 	}
 }
-// This part only shows how to use the function.  You just need the above function to convert an int to an array
+// This part only shows how to use the functions.  You just need the above function to convert an int to an array
 
 $arr = array();
 $num = 1234567;
